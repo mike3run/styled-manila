@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlexCols with custom base length 1`] = `
+.c0 {
+  max-width: 25%;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`FlexCols with default base length 1`] = `
+.c0 {
+  max-width: 50%;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+<div
+  className="c0"
+/>
+`;
