@@ -14,18 +14,15 @@ npm install --save styled-manila
 
 ## Usage
 
+Each mixin is fully tree shakeable to provide the best compiled results experience.
+
 ```jsx
-import React, { Component } from 'react'
+import styled from 'styled-components'
+import { stdBackground } from 'styled-manila'
 
-import MyComponent from 'styled-manila'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+const MyComponent = styled.div`
+  ${stdBackground}
+`
 ```
 
 ## License
