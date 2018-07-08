@@ -2,7 +2,9 @@
 
 > Manila mixins for the component age
 
-[![NPM](https://img.shields.io/npm/v/styled-manila.svg)](https://www.npmjs.com/package/styled-manila) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/styled-manila.svg)](https://www.npmjs.com/package/styled-manila)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![CircleCI](https://circleci.com/gh/shelldandy/styled-manila.svg?style=svg)](https://circleci.com/gh/shelldandy/styled-manila)
 
 ## Install
 
