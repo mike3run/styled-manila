@@ -1,0 +1,4 @@
+name: styled-manila
+windows:
+  - editor: eval $EDITOR
+  - main: yarn start
