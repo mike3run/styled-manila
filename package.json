@@ -11,6 +11,9 @@
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
+    "prebuild": "npm run test",
+    "preversion": "npm run test",
+    "postversion": "npm publish; git push; git push --tags",
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "yarn run build",
@@ -19,9 +22,6 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "prop-types": "^15.5.4",
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0",
     "styled-components": "^3.3.3"
   },
   "devDependencies": {
