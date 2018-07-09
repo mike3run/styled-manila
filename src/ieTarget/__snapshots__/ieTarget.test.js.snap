@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ieTarget works! 1`] = `
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  .c0 {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

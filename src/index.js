@@ -1,5 +1,7 @@
 export { default as align } from './align'
 export { default as flexCols } from './flexCols'
+export { default as hideScroll } from './hideScroll'
+export { default as ieTarget } from './ieTarget'
 export { default as placeholder } from './placeholder'
 export { default as resetBtn } from './resetBtn'
 export { default as resetInput } from './resetInput'

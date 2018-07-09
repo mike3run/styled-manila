@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hideScroll works! 1`] = `
+.c0::-webkit-scrollbar {
+  display: none;
+}
+
+<div
+  className="c0"
+/>
+`;
