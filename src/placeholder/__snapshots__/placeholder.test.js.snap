@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`placeholder works! 1`] = `
+.c0::-webkit-input-placeholder {
+  color: pink;
+}
+
+.c0::-moz-placeholder {
+  color: pink;
+}
+
+.c0:-ms-input-placeholder {
+  color: pink;
+}
+
+.c0::-ms-input-placeholder {
+  color: pink;
+}
+
+.c0:placeholder-shown {
+  color: pink;
+}
+
+<div
+  className="c0"
+/>
+`;
