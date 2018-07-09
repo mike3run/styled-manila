@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`size works with a number 1`] = `
+.c0 {
+  width: 20px;
+  height: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`size works with a number 2`] = `
+.c0 {
+  width: 20px;
+  height: 45px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`size works with a string 1`] = `
+.c0 {
+  width: 1em;
+  height: 4.3em;
+}
+
+<div
+  className="c0"
+/>
+`;
